@@ -1,9 +1,9 @@
-package ZhavaUnitTest;
+package Zhava.UnitTest;
 
 import java.io.IOException;
 import java.io.Reader;
 
-import Zhava.MyReader;
+import Zhava.lexer.MyReader;
 
 public class ReaderTest {
 

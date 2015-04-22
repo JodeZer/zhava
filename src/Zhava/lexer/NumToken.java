@@ -1,6 +1,6 @@
-package Zhava;
+package Zhava.lexer;
 
-import Zhava.Token;
+import Zhava.lexer.Token;
 
 public class NumToken extends Token {
 	private int value;

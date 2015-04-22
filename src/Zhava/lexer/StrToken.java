@@ -1,4 +1,4 @@
-package Zhava;
+package Zhava.lexer;
 
 public class StrToken extends Token {
 	private String constString;

@@ -1,4 +1,4 @@
-package Zhava;
+package Zhava.lexer;
 public abstract class Token {
 	public static final Token EOF=new Token(-1){};
 	public static final String EOL="\\n";
@@ -24,7 +24,7 @@ public abstract class Token {
 		return "";
 	}
 	public int getNumber(){
-		throw new StoneException("not number token");
+		throw new ZhavaException("not number token");
 	}
 	
 }

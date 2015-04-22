@@ -1,4 +1,4 @@
-package Zhava;
+package Zhava.lexer;
 
 import javax.swing.JOptionPane;
 import javax.swing.JScrollPane;
@@ -7,7 +7,7 @@ import javax.swing.JTextArea;
 public class CodeDialog{
 	String text="";
 	MyReader reader;
-	protected void showDialog() throws ParseException{
+	public void showDialog() throws ParseException{
 		JTextArea area=new JTextArea(20,40);
 		JScrollPane pane=new JScrollPane(area);
 		int result=JOptionPane.showOptionDialog(null, pane, "input", JOptionPane.OK_CANCEL_OPTION, 

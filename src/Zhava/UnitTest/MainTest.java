@@ -1,4 +1,7 @@
-package Zhava;
+package Zhava.UnitTest;
+
+import Zhava.lexer.CodeDialog;
+import Zhava.lexer.ParseException;
 
 public class MainTest {
 

@@ -1,4 +1,4 @@
-package Zhava;
+package Zhava.lexer;
 
 import java.io.IOException;
 

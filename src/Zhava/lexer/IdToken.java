@@ -1,4 +1,4 @@
-package Zhava;
+package Zhava.lexer;
 
 public class IdToken extends Token {
 	private String id;
